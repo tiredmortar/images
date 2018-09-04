@@ -155,15 +155,11 @@ h1, h2, h3, h4, h5, h6 {
 /* entry */
 .entry {
   position: relative;
-  margin-bottom: 4em; }
-
-.entry-header {
+  margin-bottom: 4em;
   padding-bottom: calc(1em + 8px);
-  margin-bottom: 2em;
-  position: relative;
 }
-.entry-header::before,
-.entry-header::after {
+.entry::before,
+.entry::after {
   position: absolute;
   content: "";
   display: inline-block;
@@ -172,12 +168,18 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   left: 0;
 }
-.entry-header::before {
+.entry::before {
   background-color: #eee;
 }
-.entry-header::after {
+.entry::after {
   background: url("bg_stripe_x_8x8.png") 0 0 repeat-x;
   opacity: 0.2;
+}
+
+
+.entry-header {
+  padding-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .date {
