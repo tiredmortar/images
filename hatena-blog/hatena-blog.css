@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
 .entry {
   position: relative;
   margin-bottom: 4em;
-  padding-bottom: calc(1em + 8px);
+  padding-bottom: calc(4em + 8px);
 }
 .entry::before,
 .entry::after {
