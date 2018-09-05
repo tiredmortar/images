@@ -533,8 +533,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2em; }
 
 /* Archive */
-.archive-header-category {
-  text-align: center; }
+.archive-header-category .archive-heading {
+  font-size: 1.8rem;
+}
 
 .page-archive .archive-entry {
   margin-bottom: 3em;
