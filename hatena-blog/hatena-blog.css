@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 .entry-content h4:not(:first-child),
 .entry-content h5:not(:first-child),
 .entry-content h6:not(:first-child) {
-  margin-top: 3em;
+  margin-top: 2em;
 }
 .entry-content h1 {
   font-size: 1.5rem; }
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   border-collapse: collapse;
   border-spacing: 0;
   border-bottom: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   width: 100%;
   overflow: auto;
   display: block;
