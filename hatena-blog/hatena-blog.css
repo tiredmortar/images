@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
 .entry-content h4,
 .entry-content h5,
 .entry-content h6 {
-  margin: 1em 0 2em 0;
+  margin-bottom: 2em;
 }
 .entry-content h1:not(:first-child),
 .entry-content h2:not(:first-child),
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 .entry-content h4:not(:first-child),
 .entry-content h5:not(:first-child),
 .entry-content h6:not(:first-child) {
-  margin-top: 1.5em;
+  margin-top: 3em;
 }
 .entry-content h1 {
   font-size: 1.5rem; }
