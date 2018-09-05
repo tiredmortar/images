@@ -252,7 +252,9 @@ h1, h2, h3, h4, h5, h6 {
 .entry-content h6 {
   font-size: .9rem; }
 
-.entry-content p {
+.entry-content p,
+.entry-content ul,
+.entry-content ol {
   margin-bottom: 2em;
 }
 
