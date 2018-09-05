@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
     #blog-title {
       padding: 40px;
       text-align: left;
-			align-items: start;
+      align-items: start;
 		}
 	}
 
@@ -424,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   width: 8px;
   height: 16px;
-  top: 0.7rem;
+  top: 0.6rem;
   left: 0;
 }
 .hatena-module-title::before {
