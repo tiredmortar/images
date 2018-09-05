@@ -613,7 +613,8 @@ h1, h2, h3, h4, h5, h6 {
 body.page-index .comment-box {
   display: none;
 }
-.entry-category-link {
+.entry-category-link,
+.archive-category-link {
   display: inline-block;
   margin-right: .8em;
   text-decoration: none;
