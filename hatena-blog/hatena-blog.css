@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6 {
 .hatena-module-title {
   margin-bottom: 1.3em;
   padding-bottom: .2em;
-  padding-left: 16px;
+  padding-left: 20px;
   /*border-bottom: 1px solid #eee;*/
   font-size: 1rem;
   font-weight: bold;
@@ -424,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   width: 8px;
   height: 16px;
-  top: 0.5rem;
+  top: 0.7rem;
   left: 0;
 }
 .hatena-module-title::before {
@@ -441,7 +441,7 @@ h1, h2, h3, h4, h5, h6 {
       text-decoration: underline; }
       
 .hatena-module-body {
-  padding-left: 16px;
+  padding-left: 20px;
 }
 
 /* Profile module */
