@@ -301,9 +301,13 @@ h1, h2, h3, h4, h5, h6 {
 .entry-content table th {
   background: #f5f5f5; }
 .entry-content blockquote {
-  border: 1px solid #ddd;
-  margin: 0 0 10px;
-  padding: 20px; }
+  border: 5px solid #ddd;
+  border-width: 0 0 0 5px;
+  padding: 0 0 0 20px;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 2em;
+}
   .entry-content blockquote p:first-child {
     margin-top: 0; }
   .entry-content blockquote p:last-child {
