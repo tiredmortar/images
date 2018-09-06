@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 0 20px;
   color: #666;
   font-style: italic;
-  margin-bottom: 2em;
+  margin: 0 0 2em;
 }
   .entry-content blockquote p:first-child {
     margin-top: 0; }
