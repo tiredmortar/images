@@ -168,9 +168,6 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   left: 0;
 }
-.entry::before {
-  background-color: #eee;
-}
 .entry::after {
   background: url("bg_stripe_x_8x8.png") 0 0 repeat-x;
   opacity: 0.2;
