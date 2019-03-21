@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .ff11_prof p {
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .ff11_prof {
