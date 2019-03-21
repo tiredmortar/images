@@ -1,0 +1,117 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.ff11_prof p {
+  padding: 0;
+  margin: 0;
+}
+
+.ff11_prof {
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+  font-size: 12px;
+  line-height: 1;
+  border: 2px solid #eee;
+  border-radius: 3px;
+  display: inline-block;
+  width: 260px;
+}
+
+/* ----- basics ----- */
+.ff11_prof .basic {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+}
+.ff11_prof .basic_left {
+  display: flex;
+  align-items: center;
+}
+.ff11_prof .basic_right img {
+  width: 15px;
+}
+.ff11_prof .name {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.ff11_prof .icon_face {
+  margin-right: 10px;
+}
+.ff11_prof .icon_face span {
+  width: 26px;
+  height: 26px;
+}
+.ff11_prof .icon_face img {
+  width: 14px;
+}
+.ff11_prof .Img_rounded_border {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+.ff11_prof .server {
+  color: #999;
+  font-size: 10px;
+}
+
+/* ----- jobs ----- */
+.ff11_prof .jobs {
+  /*display: flex;
+  flex-wrap: wrap;*/
+  font-size: 10px;
+}
+.ff11_prof .job {
+  border-top: 1px solid #eee;
+  padding: 7px 0 7px 10px;
+  display: flex;
+  align-items: center;
+}
+.ff11_prof .job_name {
+  width: 34px;
+}
+.ff11_prof .job_name img {
+  margin-left: 2px;
+}
+.ff11_prof .job_level {
+  color: #999;
+  width: 80px;
+}
+.ff11_prof .job_level .level {
+  margin-right: 5px;
+}
+.ff11_prof .job_level .level_99 {
+  color: #59d;
+}
+.ff11_prof .job_level .master {
+  color:#e80;
+}
+.ff11_prof .job_level .master img {
+  margin-right: 2px;
+}
+.ff11_prof .weapons .no_rmea {
+  color: #ddd;
+  height: 15px;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.ff11_prof .weapons img {
+  width: 10px;
+  height: 10px;
+}
+.ff11_prof .weapons span {
+  width: 14px;
+  height: 14px;
+}
+.ff11_prof .weapons span:empty {
+  height: 15px;
+  display: inline-block;
+}
