@@ -432,14 +432,12 @@ h1, h2, h3, h4, h5, h6 {
 .hatena-module-title {
   margin-bottom: 1.3em;
   padding-bottom: .2em;
-  padding-left: 20px;
-  /*border-bottom: 1px solid #eee;*/
   font-size: 1rem;
   font-weight: bold;
   color: #666;
   position: relative;
 }
-.hatena-module-title::before,
+/*.hatena-module-title::before,
 .hatena-module-title::after {
   position: absolute;
   content: "";
@@ -448,7 +446,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 16px;
   top: 0.6rem;
   left: 0;
-}
+}*/
 .hatena-module-title::before {
   background-color: #eee;
 }
