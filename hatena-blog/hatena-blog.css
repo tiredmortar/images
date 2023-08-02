@@ -695,6 +695,8 @@ body.page-archive .categories {
 .pr {
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
 .pr-item {
