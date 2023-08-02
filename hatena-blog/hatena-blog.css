@@ -720,7 +720,7 @@ body.page-archive .categories {
 }
 
 .pr-item__link {
-  display: inline-flex;
+  /* display: inline-flex;
   border-radius: 3px;
   padding: 0 5px;
   width: 60%;
@@ -728,9 +728,9 @@ body.page-archive .categories {
   background-color: #ff9900;
   color: #333333;
   text-decoration: none;
-  font-size: 12px;
   font-family: 'Inconsolata';
-  font-weight: bold;
+  font-weight: bold; */
+  font-size: 12px;
 }
 .pr-item__link:hover {
   opacity: 0.8;
