@@ -730,7 +730,8 @@ body.page-archive .categories {
   text-decoration: none;
   font-family: 'Inconsolata';
   font-weight: bold; */
-  font-size: 12px;
+  font-size: 10px;
+  height: 3em;
 }
 .pr-item__link:hover {
   opacity: 0.8;
