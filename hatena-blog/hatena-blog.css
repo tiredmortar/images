@@ -9,7 +9,6 @@ body {
   color: #454545;
   background-color: #f5f5f5;
   line-height: 2.2;
-  box-sizing: border-box;
 }
 
 a {
@@ -703,8 +702,9 @@ body.page-archive .categories {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  width: calc(50% - 2.5px);
+  width: 105px;
   padding: 5px;
+  margin-bottom: 5px;
   border: 1px solid #dddddd;
   overflow: hidden;
 }
@@ -716,7 +716,7 @@ body.page-archive .categories {
 }
 
 .pr-item a img {
-  height: 80px;
+  height: 80px !important;
 }
 
 .pr-item__link {
