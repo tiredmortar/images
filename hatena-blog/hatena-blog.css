@@ -690,7 +690,8 @@ body.page-archive .categories {
   font-size: 1.3rem;
 }
 
-/* 追加PR */
+/* --- 追加PR --- */
+/* PC */
 .pr {
   display: flex;
   flex-wrap: wrap;
@@ -720,20 +721,35 @@ body.page-archive .categories {
 }
 
 .pr-item__link {
-  /* display: inline-flex;
-  border-radius: 3px;
-  padding: 0 5px;
-  width: 60%;
-  align-items: center;
-  background-color: #ff9900;
-  color: #333333;
-  text-decoration: none;
-  font-family: 'Inconsolata';
-  font-weight: bold; */
   font-size: 10px;
   height: 3em;
   line-height: 1.5;
 }
 .pr-item__link:hover {
   opacity: 0.8;
+}
+
+/* SP */
+.pr--SP,
+.pr--SP li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pr--SP {
+  display: flex;
+  justify-content: center;
+}
+.pr--SP li {
+  border: 1px solid #d2d8dd;
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	padding: 5px;
+}
+.pr--SP li:not(:last-child) {
+	margin-right: 10px;
+}
+.pr--SP li img {
+	width: 100%;
 }
