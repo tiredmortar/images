@@ -719,6 +719,8 @@ body.page-archive .categories {
 
 .pr-item a img {
   height: 80px !important;
+  width: auto;
+  max-width: none !important;
 }
 
 .pr-item__link {
