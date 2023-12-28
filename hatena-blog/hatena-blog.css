@@ -125,6 +125,10 @@ h1, h2, h3, h4, h5, h6 {
 	}
   #title a {
     color: inherit; }
+  #title a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
 
 #blog-description {
   font-weight: normal;
