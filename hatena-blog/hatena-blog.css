@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.15rem;
 	color: #fff;
 	padding: 5px;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.2);
 }
   @media (min-width: 992px) {
     #title {
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	padding: 5px;
 	display: inline-block;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.2);
 }
 
 /* ヘッダ画像を設定したとき */
