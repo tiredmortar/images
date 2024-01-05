@@ -114,7 +114,6 @@ h1, h2, h3, h4, h5, h6 {
 #title {
   margin: 0;
   font-size: 1.7rem;
-  letter-spacing: 0.1rem;
   color: #fff;
   font-family: 'Yomogi', system-ui;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
