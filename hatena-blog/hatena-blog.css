@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 
 html,
 body {
@@ -114,11 +114,10 @@ h1, h2, h3, h4, h5, h6 {
 #title {
   margin: 0;
   font-size: 1.7rem;
-  letter-spacing: 0.15rem;
-	color: #fff;
-	padding: 5px;
-	background-color: rgba(0,0,0,0.2);
-	font-family: 'Slackside One', system-ui;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  font-family: 'Yomogi', system-ui;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.4);
 }
   @media (min-width: 992px) {
     #title {
@@ -136,10 +135,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-size: .8rem;
   margin: 1em 0 0;
-	color: #fff;
-	padding: 5px;
-	display: inline-block;
-	background-color: rgba(0,0,0,0.2);
+  color: #fff;
+  display: inline-block;
 }
 
 /* ヘッダ画像を設定したとき */
