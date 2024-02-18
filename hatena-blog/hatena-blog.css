@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap')
 
 html,
 body {
@@ -116,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-size: 1.7rem;
   color: #fff;
-  font-family: 'Yomogi', system-ui;
+  font-family: 'Yusei Magic', system-ui;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
 }
   @media (min-width: 992px) {
