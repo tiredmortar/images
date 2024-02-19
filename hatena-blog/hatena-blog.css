@@ -759,8 +759,11 @@ body.page-archive .categories {
 
 .pr-item__link {
   font-size: 10px;
-  height: 3em;
   line-height: 1.5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 .pr-item__link:hover {
   opacity: 0.8;
