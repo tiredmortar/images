@@ -527,7 +527,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0px !important;
 }
 .hatena-module-search-box .search-form {
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   border-radius: 16px;
   width: 100%;
   box-sizing: border-box;
