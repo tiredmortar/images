@@ -442,10 +442,12 @@ h1, h2, h3, h4, h5, h6 {
 .hatena-module-title {
   margin-bottom: 1.3em;
   padding-bottom: .2em;
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: bold;
-  color: #666;
   position: relative;
+  background: #454545;
+  color: #fff;
+  padding: 5px 15px;
 }
 /*.hatena-module-title::before,
 .hatena-module-title::after {
@@ -699,6 +701,9 @@ body.page-archive .categories {
 
 /* --- 追加PR --- */
 /* PC */
+.hatena-module-custom-pr {
+  padding-top: 15px;
+}
 .pr {
   display: flex;
   flex-wrap: wrap;
@@ -710,7 +715,7 @@ body.page-archive .categories {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  width: 103px;
+  width: 101px;
   padding: 5px;
   margin-bottom: 5px;
   border: 1px solid #dddddd;
@@ -761,4 +766,13 @@ body.page-archive .categories {
 }
 .pr--SP li img {
 	width: 100%;
+}
+
+/* --- twitter --- */
+
+.hatena-module-custom-twitter {
+  border-width: 0px !important;
+}
+.hatena-module-custom-twitter .hatena-module-body {
+  padding: 0 !important;
 }
