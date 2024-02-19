@@ -568,6 +568,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Archive */
 .archive-header-category .archive-heading {
   font-size: 1.8rem;
+  margin: 0 0 0.5em !important;
 }
 
 .page-archive .archive-entry {
@@ -633,7 +634,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #000;
 }
 .breadcrumb-inner {
-  padding: 40px 40px 0;
+  padding-left: 0 40px;
 }
 .entry-content iframe {
   display: block;
