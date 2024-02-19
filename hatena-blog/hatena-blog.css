@@ -517,16 +517,25 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: .3em; }
 
 /* Search module */
+.hatena-module-search-box {
+  border-width: 0px !important;
+}
+.hatena-module-search-box .hatena-module-title {
+  display: none;
+}
+.hatena-module-search-box .hatena-module-body {
+  padding: 0px !important;
+}
 .hatena-module-search-box .search-form {
   border: 1px solid #ddd;
-  border-radius: 3px;
+  border-radius: 16px;
   width: 100%;
   box-sizing: border-box;
   display: flex;
   align-items: center; }
 .hatena-module-search-box .search-module-input {
   flex: 1 0;
-  padding: 5px;
+  padding: 5px 10px;
   color: #454545;
   background: none;
   border: none;
