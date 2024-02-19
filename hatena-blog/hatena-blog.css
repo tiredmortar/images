@@ -434,7 +434,9 @@ h1, h2, h3, h4, h5, h6 {
 .hatena-module {
   box-sizing: border-box;
   margin-bottom: 3em;
-  font-size: .85rem; }
+  font-size: .85rem; 
+  border: 2px solid #454545;
+}
   @media (min-width: 768px) {
     .hatena-module {
       font-size: .9rem; } }
@@ -473,7 +475,7 @@ h1, h2, h3, h4, h5, h6 {
       text-decoration: underline; }
       
 .hatena-module-body {
-  padding-left: 20px;
+  padding: 0 15px 15px;
 }
 
 /* Profile module */
