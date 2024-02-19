@@ -719,7 +719,6 @@ body.page-archive .categories {
   align-items: center;
   width: 108px;
   margin-bottom: 5px;
-  border: 1px solid #dddddd;
   overflow: hidden;
 }
 .pr-item:not(:last-child) {
