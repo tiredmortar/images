@@ -449,6 +449,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   background: #454545;
   background-image: repeating-linear-gradient(45deg, #454545 25%, transparent 25%, transparent 75%, #454545 75%, #454545), repeating-linear-gradient(45deg, #454545 25%, #333 25%, #333 75%, #454545 75%, #454545);
+  background-position: 0 0, 10px 10px;
+  background-size: 20px 20px;
   color: #fff;
   padding: 5px 15px;
 }
