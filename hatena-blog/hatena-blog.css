@@ -649,13 +649,16 @@ body.page-index .comment-box {
 }
 .entry-category-link,
 .archive-category-link {
-  display: inline-block;
+  display: inline-flex;
   margin-right: .8em;
   text-decoration: none;
-  border-radius: 3px;
-  padding: .3em 1em;
-  background-color: #f5f5f5;
+  border-radius: 15pxpx;
+  padding: .4em 1em;
+  background-color: #fff;
   font-size: .8em;
+  border: 2px solid #1487bd;
+  line-height: 1;
+  align-items: center;
 }
 
 /* 追加分 */
