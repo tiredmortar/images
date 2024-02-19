@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 4em;
   padding-bottom: calc(4em + 8px);
 }
-.entry::before,
+/*.entry::before,
 .entry::after {
   position: absolute;
   content: "";
@@ -177,10 +177,17 @@ h1, h2, h3, h4, h5, h6 {
   height: 8px;
   bottom: 0;
   left: 0;
-}
+}*/
 .entry::after {
-  background: url("bg_stripe_x_8x8.png") 0 0 repeat-x;
-  opacity: 0.2;
+  background: url("bg_maton.png") 0 0 repeat-x;
+  background-size: 25%;
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 37px;
+  bottom: 0;
+  left: 0;
 }
 
 
