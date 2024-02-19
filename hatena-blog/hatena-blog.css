@@ -707,7 +707,7 @@ body.page-archive .categories {
 /* --- 追加PR --- */
 /* PC */
 .hatena-module-custom-pr {
-  padding-top: 15px;
+  /*padding-top: 15px;*/
 }
 .pr {
   display: flex;
