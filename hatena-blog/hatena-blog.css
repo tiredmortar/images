@@ -159,8 +159,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* パンくず（カテゴリー、記事ページで表示されます） */
 .breadcrumb {
-  font-size: .9rem;
-	margin-bottom: .2rem;
+  font-size: .8rem;
+  color: #999;
+  margin-bottom: 0px !important;
 }
 
 /* entry */
