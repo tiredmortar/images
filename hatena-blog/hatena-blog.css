@@ -332,10 +332,12 @@ h1, h2, h3, h4, h5, h6 {
 .entry-content code {
   font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif; }
 .entry-content pre {
-  background: #454545;
-  color: #fff;
+  padding: 20px;
   border-radius: 3px;
-  border: none;
+  color: #fff;
+  background: repeating-linear-gradient(#0E0931, #0E0931 5px, #272952 10px, #272952 15px, #0E0931 20px);
+  border: 2px solid red;
+  border-image: linear-gradient(to right, #76715D 0%, #897B4F 10%, #897B4F 90%, #76715D 100%) 2;
   white-space: pre-wrap;
   text-overflow: ellipsis;
   font-size: 100%;
@@ -805,3 +807,4 @@ body.page-archive .categories {
 .hatena-module-custom-twitter .hatena-module-body {
   padding: 0 !important;
 }
+
