@@ -328,10 +328,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0; }
   .entry-content blockquote p:last-child {
     margin-bottom: 0; }
-.entry-content ,
+.entry-content pre,
 .entry-content code {
   font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif; }
-.entry-content  {
+.entry-content pre {
   padding: 20px;
   border-radius: 3px;
   color: #fff;
