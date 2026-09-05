@@ -328,14 +328,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0; }
   .entry-content blockquote p:last-child {
     margin-bottom: 0; }
-.entry-content pre,
+.entry-content ,
 .entry-content code {
   font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif; }
-.entry-content pre {
+.entry-content  {
   padding: 20px;
   border-radius: 3px;
   color: #fff;
-  background: repeating-linear-gradient(#0E0931, #0E0931 5px, #191B42 10px, #191B42 15px, #0E0931 20px);
+  background: repeating-linear-gradient(#0E0931, #0E0931 2px, #191B42 4px, #191B42 6px, #0E0931 8px);
   border: 2px solid red;
   border-image: linear-gradient(to right, #76715D 0%, #897B4F 10%, #897B4F 90%, #76715D 100%) 2;
   white-space: pre-wrap;
