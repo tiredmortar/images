@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 #blog-description {
-  font-weight: normal;
+  font-weight: bold;
   font-size: .8rem;
   margin: 1em 0 0;
   color: #fff;
